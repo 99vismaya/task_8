@@ -9,7 +9,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-emp_perf_model_path1 = 'C:/Users/ADMIN/task8.pkl'
+emp_perf_model_path1 = 'task8'
 emp_perf_model1 = pickle.load(
     open(emp_perf_model_path1, 'rb'))
 
