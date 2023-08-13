@@ -9,10 +9,8 @@ import streamlit as st
 import numpy as np
 import pickle
 
-emp_perf_model_path1 = 'task8.pkl'
-emp_perf_model1 = pickle.load(
-    open(emp_perf_model_path1, 'rb'))
-
+emp_perf_model1 = open("task8.pkl","rb")
+emp_perf_model1=pickle.load(emp_perf_model1)
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html = True)
 
